@@ -1,0 +1,75 @@
+
+#titulo{
+  text-align: center;
+}
+
+#personMain {
+  display: flex;
+  flex-direction: column;
+  padding-bottom:100px ;
+
+}
+#personList {
+ display: flex;
+ flex-wrap: wrap; 
+ 
+}
+
+
+#personList h3 {
+ padding: 0;
+ margin: 0;
+ font-size: 14px;
+}
+#personList button, #controlbutton button {
+  color: #6492a3;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 3px;
+  
+}
+
+#controlbutton{
+  text-align: center;
+  
+}
+#controlbutton button{
+  margin: 40px 20px;
+}
+#nameDetal {
+  margin: 15px 0px;
+  text-decoration: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+
+
+#personImg {
+  width: 370px;
+  height: 230px;
+}
+
+#personImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  transform: scale(0.9);
+  transition: all ease 0.2s;
+}
+
+#personImg img:hover {
+  transform: scale(1);
+}
+
+@media (max-width: 768px) {
+  #personImg  {
+    width: 300px;
+    height: 250px;
+  
+  }
+  
+}

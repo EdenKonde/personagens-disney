@@ -1,0 +1,57 @@
+#personViewMain {
+  padding-bottom:100px ;
+}
+#personView {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+#personViewImg  {
+  width: 600px;
+  height: 430px;
+
+}
+
+#personViewImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  transform: scale(0.9);
+  transition: all ease 0.2s;
+}
+
+#personViewImg img:hover {
+  transform: scale(1);
+}
+
+#personViewDetail{
+  padding-left: 40px;
+}
+
+#personViewDetail button {
+  color: #6492a3;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+  
+}
+
+@media (max-width: 768px) {
+  #personViewImg  {
+    width: 300px;
+    height: 250px;
+  
+  }
+  #personViewDetail button {
+    font-size: 15px;
+    padding: 3px;
+    
+  }
+  #personViewDetail{
+    padding: 18px;
+  }
+  
+}
